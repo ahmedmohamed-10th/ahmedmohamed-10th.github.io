@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Terminal and Vim Guide</title>
+    <script src="validate.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Terminal and Vim Guide</h1>
+        <p>A guide to the Terminal and Vim commands we learned in class.</p>
+    </header>
+
+    <main>
+        <section>
+            <h2>Terminal</h2>
+            <p>The Terminal lets you interact with your computer by typing commands.</p>
+
+            <ul>
+                <li><code>pwd</code> - Shows your current directory.</li>
+                <li><code>ls</code> - Lists files and folders.</li>
+                <li><code>cd</code> - Changes directories.</li>
+                <li><code>mkdir</code> - Creates a new directory.</li>
+                <li><code>rm</code> - Removes a file.</li>
+                <li><code>cp</code> - Copies a file.</li>
+                <li><code>mv</code> - Moves or renames a file.</li>
+                <li><code>grep</code> - Searches for text.</li>
+                <li><code>less</code> - Lets you read a file.</li>
+            </ul>
+
+            <h3>Terminal Example</h3>
+
+            <pre><code>pwd
+ls
+cd practice
+mkdir examples</code></pre>
+        </section>
+
+        <section>
+            <h2>Vim</h2>
+            <p>Vim is a text editor that can be used from the Terminal.</p>
+
+            <h3>How to Use Vim</h3>
+
+            <ol>
+                <li>Open a file with <kbd>vim filename.html</kbd>.</li>
+                <li>Press <kbd>i</kbd> to enter Insert Mode.</li>
+                <li>Type or edit your text.</li>
+                <li>Press <kbd>Esc</kbd> to return to Normal Mode.</li>
+                <li>Type <kbd>:w</kbd> and press Enter to save.</li>
+                <li>Type <kbd>:q</kbd> and press Enter to quit.</li>
+            </ol>
+
+            <h3>Useful Vim Commands</h3>
+
+            <ul>
+                <li><kbd>i</kbd> - Insert Mode</li>
+                <li><kbd>Esc</kbd> - Normal Mode</li>
+                <li><kbd>:w</kbd> - Save</li>
+                <li><kbd>:q</kbd> - Quit</li>
+                <li><kbd>:wq</kbd> - Save and quit</li>
+                <li><kbd>:q!</kbd> - Quit without saving</li>
+            </ul>
+
+            <h3>Vim Example</h3>
+
+            <pre><code>vim index.html
+
+i
+&lt;h1&gt;Hello World!&lt;/h1&gt;
+Esc
+:w
+:q</code></pre>
+
+            <p>Example Terminal output:</p>
+
+            <pre><samp>index.html
+terminal.html
+practice/</samp></pre>
+        </section>
+
+        <section>
+            <h2>Tips</h2>
+
+            <ul>
+                <li>Use <code>pwd</code> to see where you are.</li>
+                <li>Use <code>ls</code> to see your files.</li>
+                <li>Press <kbd>Esc</kbd> before using Vim commands like <kbd>:w</kbd>.</li>
+                <li>Remember that Vim has different modes.</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>Made by me for Terminal and Vim .</p>
+    </footer>
+</body>
+</html>
+
